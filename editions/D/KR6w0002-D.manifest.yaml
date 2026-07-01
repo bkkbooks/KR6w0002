@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6w0002/D/v1
+canonical_location: https://kanripo.org/bkk/KR6w0002/D/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說佛名經（存卷七）
+  identifiers:
+    krp: KR6w0002
+    cbeta: D02n8680
+    cbeta_old_id: D02n8680
+    authorityid: CA0008001
+    json_key: D8680
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/D/D02/D02n8680.xml
+    old_id: D02n8680
+  edition:
+    short: D
+assets:
+  parts:
+  - {seq: 0, filename: KR6w0002_000-D.yaml, hash: 'sha256:273ddc74adfec9c6427045438cc31f54a67b28072c27cf588889907cffa3e5a0'}
+  - {seq: 7, filename: KR6w0002_007-D.yaml, hash: 'sha256:a543e57ec8f40dd241686fa315a107a55f37f9df78e9be4d04e789e64f620e45'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6w0002_000-D.markers.yaml, hash: 'sha256:0bac5d0fab1c0354b6e0bad24f882cce306abb290fc04862ca7953569a5efc48'}
+  - {seq: 7, role: markers, filename: assets/KR6w0002_007-D.markers.yaml, hash: 'sha256:878dd6343b2a479565a3dbea2c4d1d7404fcefdd1556ac2f102bd12cce154dba'}
+table_of_contents:
+- ref:
+    seq: 7
+    marker_id: KR6w0002_D_007-juan-start
+    span:
+    - body
+    - 0
+    - 9144
+  label: 佛󵘸佛名經卷苐七
+  type: juan
+  level: 1
+hash: sha256:b4defe1ba94c3be8a0646177872a269510e85f0a9899669aa922ec175032d0e8

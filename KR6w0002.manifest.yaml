@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR6w0002/v1
+canonical_location: https://kanripo.org/bkk/KR6w0002/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說佛名經（存卷七）
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/D/D02/D02n8680.xml
+    old_id: D02n8680
+  edition:
+    short: bkk
+editions:
+- short: 國圖
+  label: 國圖
+  source_xml_id: wit.orig
+- short: D
+assets:
+  parts:
+  - {seq: 0, filename: KR6w0002_000.yaml, hash: 'sha256:273ddc74adfec9c6427045438cc31f54a67b28072c27cf588889907cffa3e5a0'}
+  - {seq: 7, filename: KR6w0002_007.yaml, hash: 'sha256:dd8d3446b75251785448062d1f6cbd595319e07d485c56220e282644cad0cdcf'}
+  markers:
+  - {seq: 7, role: markers, filename: assets/KR6w0002_007.markers.yaml, hash: 'sha256:cd478d98fa63c234ddbaa80781e10a564102f5ce5c63b046ffbc233d10889463'}
+table_of_contents:
+- ref:
+    seq: 7
+    marker_id: KR6w0002_D_007-juan-start
+    span:
+    - body
+    - 0
+    - 9144
+  label: 佛󵘸佛名經卷苐七
+  type: juan
+  level: 1
+hash: sha256:75d799f46df5c3afb6cc69eec01b4aea3a943869097384161ce4c7c83af92ed5
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
